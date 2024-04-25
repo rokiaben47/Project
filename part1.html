@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information Form</title>
+    <link rel="stylesheet" href="style.css">
+     
+       
+  
+   <style>
+   
+
+ 
+
+    body {
+    font-family: sans-serif;
+    margin: 2rem;
+    
+    background-image: repeating-linear-gradient(135deg, rgba(0,0,0,0.03) 0px, rgba(0,0,0,0.03) 2px,transparent 2px, transparent 4px),linear-gradient(45deg, rgb(18,233,107),rgba(166,255,155, 0));
+    
+  
+}
+
+img.a {
+    margin:  0px 5px 10px 5px; 
+}
+img.b{
+
+
+
+}
+
+
+
+h1 {
+    text-align: center;
+    color: gray;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input, textarea {
+    width: 50%;
+    padding: 0.5rem;
+    border: 1px solid #8a8b86e7;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #56bd56;
+    color: #e4dcdc;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: 60pointer;
+}
+
+button:hover {
+    background-color: rgb(230, 59, 7);
+}
+.custom-shape-divider-bottom-1712223589 {
+  margin:0;
+  position:relative;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background-color:#cdf5db;
+  height: 30vh;
+}
+
+.custom-shape-divider-bottom-1712223589 svg {
+ margin:0;
+  position:absolute;
+  display:block;
+  width: calc(100% +1.3px);
+  height: 293px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1712223589 .shape-fill {
+  fill: white;
+}
+.custom-shape-divider-bottom-1712223589 {
+  margin:0;
+  position:relative;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background-color:#cdf5db;
+  height: 30vh;
+}
+
+.custom-shape-divider-bottom-1712223589 svg {
+ margin:0;
+  position:absolute;
+  display:block;
+  width: calc(100% +1.3px);
+  height: 293px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1712223589 .shape-fill {
+  fill: white;
+}
+
+
+ 
+</style>
+</head>
+<body>
+   
+  <img src  = "sqrq.jpg" height="300px" class = a width ="100%">
+ 
+  
+  
+  <h1> LE DOMANDEUR</h1>
+  
+    <form id="user-form">
+        
+        <div class="form-group">
+            <label for="nom">nom:</label>
+            <input type="text" name="nom"
+             id="nom" required>
+        
+    </div>
+    
+    <div class="form-group">
+            <label for="prenom">prenom:</label>
+            <input type="text" name="prenom" id="prenom" required>
+        </div>
+
+        
+        <div class="form-group">
+            <label for="email">email:</label>
+            <input type="email" name="email" id="email" required>
+        </div>>
+        
+        
+        
+        
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>  </div>
+      
+        
+        
+            <div class="form-group">
+            <label for="Data de signature">Data de signatur:</label>
+            <input type="time" name="Data de signatur" id="Data de signatur" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> 
+         </div>
+            
+            
+         
+         <div class="form-group">
+                <label for="universite/Ecole">universite/Ecole:</label>
+                <input type="text" name="universite/Ecole" id="universite/Ecole" required>
+              </div>
+            
+            
+              <div class="form-group">
+                <label for="laborateur">laborateur:</label>
+                <input type="text" name="laborateur" id="laborateur" required>
+              </div>
+            
+            
+              <div class="form-group">
+                <label for="directeur laborateur"laborateur>directeur laborateur:</label>
+                <input type="text" name="laborateur" id="laborateur" required>
+              </div>
+            
+            
+              <div class="form-group">
+                <label for="universite/Ecole">universite/Ecole:</label>
+                <input type="text" name="universite/Ecole" id="universite/Ecole" required>
+              </div>
+        
+            
+              <div class="form-group">
+                <label for="other">Other Information (Optional):</label>
+                <textarea name="other" id="other" rows="5"></textarea>
+            </div>
+    <h1>LES NFORMATONS CONCERNANT LECHANTLLON </h1>
+            <form id="user-form">
+                
+                <div class="form-group">
+                    <label for="NATURE"> NATURE:</label>
+                    <input type="text" name="NATURE" id="NATURE" required>
+                
+            </div>
+            <div class="form-group">
+                <label for="phone"> Number:</label>
+                <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>  </div>
+          
+            <div class="form-group">
+                    <label for="prenom">prenom:</label>
+                    <input type="text" name="prenom" id="prenom" required>
+                </div>
+        
+                
+
+            <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        // Add functionality here (optional)
+        // For example, you could handle form submission using JavaScript
+    </script>
+</body>
+</html>
